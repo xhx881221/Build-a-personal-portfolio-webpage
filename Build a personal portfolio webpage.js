@@ -7,10 +7,10 @@ var collapsedNavbar = document.getElementById('navbar-collapsed');
 var scrollUp = document.getElementById('scroll-up');
 
 //初始化ABOUT按钮的背景颜色和字体颜色。
-/*window.addEventListener("load", function() {
+window.addEventListener("load", function() {
   main.style.backgroundColor = '#e7e7e7';
   main.style.color = '#333';
-})*/
+})
 
 //通过判断scrollTop的数值，从而判断现在所处的位置，进一步，将对应章节的按钮生成为应该的样式。
 window.addEventListener("scroll", function() {
